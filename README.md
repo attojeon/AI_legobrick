@@ -7,7 +7,7 @@
 
 ## 실행방법
 - 가상환경(3.6) 실행
-  - 윈도우 : > env/bin/activate.bat 
+  - 윈도우 : > env36\Scripts\activate.bat  
   - 리눅스 : $ source ./env/bin/activate 
   - pip install -r requirements ( mathplotlib==1.53 버전임.)
 - ./alphabet/Testing/, ./alphabet/Training/ 두 폴더 아래에 알파벳 폴더 안에 이미지들이 위치하도록 세팅한다.
