@@ -13,3 +13,17 @@
 - ./alphabet/Testing/, ./alphabet/Training/ 두 폴더 아래에 알파벳 폴더 안에 이미지들이 위치하도록 세팅한다.
 - ai_alphabet.py의 main() 함수를 적절히 수정하여 실행한다.
 - my_h5_model.h5 모델을 사용할 수 있음.
+
+
+
+#### wsl/ubuntu18.02 환경에서 ###
+## python3 -m 설치  (python3.6 venv 구축하기)
+$ sudo apt-get install python3-venv
+...
+$ python3 -m venv venv
+
+$ source venv/bin/activate
+$(venv) pip install --upgrade pip    # pip 자체 업그레이드(필요함)
+$(venv) pip list
+
+$(venv) pip install -r requirements.txt
